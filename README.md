@@ -21,7 +21,7 @@ Greenspot Grocer, a fictional online grocery store, needed a scalable relational
    Wrote SQL JOIN queries to validate the database design, demonstrating the ability to retrieve data from multiple tables in a single query.
 
 ## Files Included
-1. ER Diagram: A visual representation of the database design
+1. [ER Diagram](https://github.com/oluwadunni1/greenspotdbm/blob/main/ER_diagram.png): A visual representation of the database design
 2. SQL Scripts:
    * [create_database.sql](https://github.com/oluwadunni1/greenspotdbm/blob/main/createScript.sql): Script to create the database and tables.
    * [insert_data.sql](https://github.com/oluwadunni1/greenspotdbm/blob/main/insertScript.sql): Script to load the sample data into the tables

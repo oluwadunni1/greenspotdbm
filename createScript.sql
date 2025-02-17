@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS `greenspot`.`items` (
   `description` VARCHAR(100) NOT NULL,
   `item_type` VARCHAR(45) NOT NULL,
   `unit` VARCHAR(20) NOT NULL,
+  `inventory_level` INT NOT NULL DEFAULT 0, -- New column to track stock levels
   PRIMARY KEY (`item_no`)
 ) ENGINE = InnoDB DEFAULT CHARACTER SET = utf8mb4;
 

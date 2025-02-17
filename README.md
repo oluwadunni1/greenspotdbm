@@ -34,4 +34,5 @@ The initial dataset contained several inconsistencies and anomalies, including i
 
 The database design addresses these issues by normalizing data into structured tables, enforcing data validation, and creating relationships that enhance scalability. This helps to improve reporting accuracy, support customer-centric growth, and enable optimized business decisions.
 
-To further enhance efficiency, triggers could be implemented to automate inventory updates, ensuring that stock levels adjust dynamically after purchases and sales. Additionally, views can be used to aggregate key metrics, such as monthly revenue, total revenue, and sales trends, improving business insights and decision-making.
+To further enhance efficiency, triggers could be implemented to automate inventory updates, ensuring that stock levels adjust dynamically after purchases and sales. Additionally, views can be used to aggregate key metrics, such as monthly revenue, total revenue, and sales trends, improving business insights and decision-making. 
+This structured approach enhances data integrity, simplifies operations, and provides a scalable foundation for business growth as product lines expand.

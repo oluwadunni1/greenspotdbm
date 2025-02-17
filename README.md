@@ -20,7 +20,7 @@ Greenspot Grocer, a fictional online grocery store, needed a scalable relational
 4. Testing:
    Wrote SQL JOIN queries to validate the database design, demonstrating the ability to retrieve data from multiple tables in a single query.
 
-## Files Included
+### Files Included
 1. [ER Diagram](https://github.com/oluwadunni1/greenspotdbm/blob/main/ER_diagram.png): A visual representation of the database design
 2. SQL Scripts:
    * [create_database.sql](https://github.com/oluwadunni1/greenspotdbm/blob/main/createScript.sql): Script to create the database and tables.
@@ -28,3 +28,11 @@ Greenspot Grocer, a fictional online grocery store, needed a scalable relational
    * [test_queries.sql](https://github.com/oluwadunni1/greenspotdbm/blob/main/testJoins.sql): Script to test the database
 4. [Sample data](https://github.com/oluwadunni1/greenspotdbm/blob/main/GreenspotDataset.csv): original dataset provided for the project
 5. Documentation: A summary of insights and conclusion.
+
+
+## Conclusion and Insights
+The initial dataset contained several inconsistencies and anomalies, including incomplete data, inconsistent entries, missing values, and redundant information. Additionally, it lacked a direct way to track inventory levels, making it difficult to compute stock due to data inconsistencies.
+
+The database design addresses these issues by normalizing data into structured tables, enforcing data validation, and creating relationships that enhance scalability. This helps to improve reporting accuracy, support customer-centric growth, and enable optimized business decisions.
+
+To further enhance efficiency, triggers could be implemented to automate inventory updates, ensuring that stock levels adjust dynamically after purchases and sales. Additionally, views can be used to aggregate key metrics, such as monthly revenue, total revenue, and sales trends, improving business insights and decision-making.

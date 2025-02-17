@@ -23,8 +23,8 @@ Greenspot Grocer, a fictional online grocery store, needed a scalable relational
 ## Files Included
 1. ER Diagram: A visual representation of the database design
 2. SQL Scripts:
-   * [create_database.sql](https://raw.githubusercontent.com/oluwadunni1/greenspotdbm/refs/heads/main/createScript.sql): Script to create the database and tables.
-   * insert_data.sql: Script to load the sample data into the tables
+   * [create_database.sql](https://raw.githubusercontent.com/oluwadunni1/greenspotdbm/blob/main/createScript.sql): Script to create the database and tables.
+   * [insert_data.sql](https://github.com/oluwadunni1/greenspotdbm/blob/main/insertScript.sql): Script to load the sample data into the tables
    * test_queries.sql: Script containing SQL queries used to test the database
 4. Sample data: original dataset provided for the project
 5. Documentation: A summary of insights and conclusion.

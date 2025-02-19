@@ -1,4 +1,4 @@
-INSERT INTO `greenspot`.`customers` (customer_id, customer_name)
+INSERT INTO `greenspot`.`customer` (customer_id, customer_name)
 VALUES 
   (198765, 'John Doe'),
   (202900, 'Santan Tobs'),
